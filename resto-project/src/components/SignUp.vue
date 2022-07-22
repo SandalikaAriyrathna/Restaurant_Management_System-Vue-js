@@ -75,25 +75,31 @@ export default {
   },
   methods: {
    async signUp(){
-        // console.warn("signup",this.name,this.email,this.password)
-        let result = await axios.post("http://localhost:3000/user",{
+        console.warn("signup",this.name,this.email,this.password)
+        let result = await axios.post("user",{
             name:this.name,
             email:this.email,
-            password:this.password
+            password:this.password,
+            
+           
         });
 
         console.warn(result);
         if(result.status==201){
-            alert("sign-up done")
+            alert("sign-up done");
+            localStorage.setItem("user-info",JSON.stringify(result.data));
         }
 
     }
   },
+  
+  
 }
+
 </script>
 
 <style>
-@import '~mdb-ui-kit/css/mdb.min.css';
+
 body, html {
   height: 100%;
 }
