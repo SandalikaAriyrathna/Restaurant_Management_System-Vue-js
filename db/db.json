@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "name": "sanda",
+      "email": "sanda@gmail.com",
+      "password": "sanda123",
+      "id": 1
+    },
+    {
+      "name": "mandi",
+      "email": "mandi@gmail.com",
+      "password": "mandi123",
+      "id": 2
+    },
+    {
+      "name": "kaveen",
+      "email": "kavi@gmail.com",
+      "password": "kavi123",
+      "id": 3
+    },
+    {
+      "name": "Dilini Sandalika",
+      "email": "dilsandu96@gmail.com",
+      "password": "abc",
+      "id": 4
+    }
+  ]
+}
