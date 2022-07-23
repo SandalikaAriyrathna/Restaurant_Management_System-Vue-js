@@ -95,8 +95,22 @@
 </template>
 
 <script>
-   export default {
-    name:'Login'
-   }
+
+export default {
+    name:'Login',
+
+    data(){
+        return{
+            email:'',
+            password:''
+        }
+    },
+    methods: {
+        login(){
+            console.warn(this.email,this.password)
+                
+        }
+    }
+}
 </script>
 

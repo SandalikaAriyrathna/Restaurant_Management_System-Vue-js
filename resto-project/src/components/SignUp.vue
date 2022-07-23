@@ -1,9 +1,19 @@
 
 <template>
-<section className="vh-100 bg-image"
-  style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp'); ">
-  <div className="mask d-flex align-items-center gradient-custom-3">
+  
+    <!-- Section: Design Block -->
+<section class="background-radial-gradient overflow-hidden">
 
+
+  <div class="container px-4 py-5 px-md-5 text-center ">
+    <div class="row gx-lg-5 align-items-center mb-5">
+     
+
+      <div class="lg-6 mb-5 mb-lg-0 position-relative">
+        <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+        <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+
+        
     <div className="container h-150">
       <div className="row d-flex justify-content-center align-items-center h-100">
         <div className="col-12 col-md-9 col-lg-7 col-xl-6">
@@ -57,8 +67,13 @@
         </div>
       </div>
     </div>
+
+       
+      </div>
+    </div>
   </div>
 </section>
+<!-- Section: Design Block -->
 
 
 </template>
