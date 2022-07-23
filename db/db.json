@@ -107,6 +107,18 @@
       "email": "",
       "password": "",
       "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 20
     }
   ]
 }

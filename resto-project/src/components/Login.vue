@@ -96,6 +96,8 @@
 
 <script>
 
+import axios from 'axios'
+
 export default {
     name:'Login',
 
@@ -106,11 +108,33 @@ export default {
         }
     },
     methods: {
-        login(){
-            console.warn(this.email,this.password)
+      async  login(){
+
+        let result = await axios.get(
+            `http://localhost:3000/user?email=${this.email}&password=${this.password}`
+        )
+        console.warn(result);
+        console.warn(this.email,this.password)
+
+        if(result.status==200 && result.data.length > 0){
+            localStorage.setItem("user-info",JSON.stringify(result.data));
+            this.$router.push({name:'Home'})
+
+            if(this.email=='admin@gmail.com' && this.password=='admin123'){
+            localStorage.setItem("user-info",JSON.stringify(result.data));
+            this.$router.push({name:'Dashboard'})
+        }
+        }
                 
         }
-    }
+    },
+     mounted() {
+        let user = localStorage.getItem('user-info');
+
+        if(user){
+            this.$router.push({name:'Home'})
+        }
+  },
 }
 </script>
 
