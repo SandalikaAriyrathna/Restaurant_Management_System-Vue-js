@@ -21,7 +21,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #0fc5e5;
 }
 
 
@@ -126,7 +126,7 @@ background: linear-gradient(to right, rgb(51, 180, 222),rgb(14, 135, 169))
     background-color: #f6f9fc;
     z-index: 5;
     border-style: solid;
-    box-shadow: 0 0 2rem 0 rgba(136, 152, 170, .15);
+    box-shadow: 0 0 2rem 0 rgba(7, 86, 222, 0.15);
 }
 
 @media (min-width: 992px) {
