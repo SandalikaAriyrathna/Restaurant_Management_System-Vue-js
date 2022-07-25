@@ -11,7 +11,7 @@
     <div class="row gx-lg-5 align-items-center mb-5">
       <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
         <h1 class="my-5 display-5 fw-bold ls-tight text-lg-start my-5" style="color: hsl(218, 81%, 95%)">
-          Hello User,  <br />
+          Hello {{name}},  <br />
           <span style="color: hsl(218, 81%, 75%)">Welcome on Sandu Restaurant</span>
         </h1>
         <p class="mb-4 opacity-70 text-lg-start my-5" style="color: hsl(218, 81%, 85%)">
@@ -68,16 +68,29 @@
 import Header from './Header.vue';
 import Footer from './Footer.vue';
 
+
 export default {
     name: "Home",
+
+    data(){
+      return{
+        name:''
+      }
+    },
 
     components: { 
       Header, 
       Footer 
     },
     
-    mounted() {
+     mounted() {
         let user = localStorage.getItem("user-info");
+     
+        this.name = JSON.parse(user).name;
+       
+       console.warn(user);
+       console.warn(this.name);
+   
         if (!user) {
             this.$router.push({ name: "SignUp" });
         }

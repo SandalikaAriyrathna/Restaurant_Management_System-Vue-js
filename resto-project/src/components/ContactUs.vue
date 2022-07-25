@@ -11,7 +11,7 @@
       <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
         <h1 class="my-5 display-5 fw-bold ls-tight text-lg-start my-5" style="color: hsl(218, 81%, 95%)">
           Hello User,  <br />
-          <span style="color: hsl(218, 81%, 75%)">Contact with Resto Home</span>
+          <span style="color: hsl(218, 81%, 75%)">Contact with Sandu Restaurant</span>
         </h1>
         <p class="mb-4 opacity-70 text-lg-start my-5" style="color: hsl(218, 81%, 85%)">
          Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within

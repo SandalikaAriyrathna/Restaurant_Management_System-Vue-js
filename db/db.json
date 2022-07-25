@@ -28,73 +28,7 @@
       "name": "john",
       "email": "john@gmail.com",
       "password": "john123",
-      "id": 5
-    },
-    {
-      "name": "john",
-      "email": "john@gmail.com",
-      "password": "john123",
-      "id": 6
-    },
-    {
-      "name": "john",
-      "email": "john@gmail.com",
-      "password": "john123",
       "id": 7
-    },
-    {
-      "name": "mm",
-      "email": "mm",
-      "password": "mm",
-      "id": 8
-    },
-    {
-      "name": "mm",
-      "email": "mmm",
-      "password": "mm",
-      "id": 9
-    },
-    {
-      "name": "aa",
-      "email": "mm",
-      "password": "mm",
-      "id": 10
-    },
-    {
-      "name": "aaaaa",
-      "email": "mmaa",
-      "password": "mm",
-      "id": 11
-    },
-    {
-      "name": "asd",
-      "email": "asd",
-      "password": "sdf",
-      "id": 12
-    },
-    {
-      "name": "asd",
-      "email": "asd",
-      "password": "asd",
-      "id": 13
-    },
-    {
-      "name": "qwe",
-      "email": "wer",
-      "password": "dfg",
-      "id": 14
-    },
-    {
-      "name": "sandalika",
-      "email": "d@gmail.com",
-      "password": "asd",
-      "id": 15
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 16
     },
     {
       "name": "Milantha Mandini",
@@ -103,22 +37,60 @@
       "id": 17
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 18
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 19
-    },
-    {
       "name": "Admin",
       "email": "admin@gmail.com",
       "password": "admin123",
       "id": 20
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "ABC Resto",
+      "contact": "0572262223",
+      "address": "Gampaha",
+      "id": 5
+    },
+    {
+      "name": "Pizza hut",
+      "address": "colombo 09",
+      "contact": 1234856789,
+      "id": 6
+    },
+    {
+      "name": "ABC Resto",
+      "contact": "0572262223",
+      "address": "Gampaha",
+      "id": 7
+    },
+    {
+      "name": "ABC Resto",
+      "contact": "0572262223",
+      "address": "Gampaha",
+      "id": 8
+    },
+    {
+      "name": "ABC Resto",
+      "contact": "0572262223",
+      "address": "Gampaha",
+      "id": 9
+    },
+    {
+      "name": "ABC Resto",
+      "contact": "0572262223",
+      "address": "Gampaha",
+      "id": 10
+    },
+    {
+      "name": "ABC Resto",
+      "contact": "0572262223",
+      "address": "Gampaha",
+      "id": 11
+    },
+    {
+      "name": "ABC Resto",
+      "contact": "0572262223",
+      "address": "Gampaha",
+      "id": 12
     }
   ]
 }

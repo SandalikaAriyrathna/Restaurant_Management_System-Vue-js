@@ -4082,6 +4082,11 @@ mdb-ui-kit@^4.3.0:
   resolved "https://registry.yarnpkg.com/mdb-ui-kit/-/mdb-ui-kit-4.3.0.tgz#7f4d9151ff76e4c32ee3c3cc3fc0ae0bf164b0eb"
   integrity sha512-XRc6EJbdm6J0YhJwkSQg8a30zIEkOQMvNOs1AVBcT3P2dA6XejQYHigmZPzcKL3N0Gb84KEwCyxqzu4hQfmJOQ==
 
+mdbootstrap@^4.20.0:
+  version "4.20.0"
+  resolved "https://registry.yarnpkg.com/mdbootstrap/-/mdbootstrap-4.20.0.tgz#3f37f4747888cb8da32ab2bb3166c69448630f59"
+  integrity sha512-eIxaYsvHct2BKqkJWphh6j7nFQXHh9NjbbN7a+dctfrVsKaydNW5XpKIxmq2tDSb9+XYGm9hK7hMTlHgeV6wdw==
+
 mdn-data@2.0.14:
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"

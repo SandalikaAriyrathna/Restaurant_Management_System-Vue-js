@@ -35,10 +35,10 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link" href="/restaurant">Restaurant </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Rooms</a>
+          <a class="nav-link" href="#">Menu</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="/about-us">About Us</a>

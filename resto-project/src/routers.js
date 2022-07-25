@@ -1,6 +1,7 @@
 import Home from './components/Home.vue'
 import SignUp from './components/SignUp.vue'
 import Login from './components/Login.vue'
+import Restaurant from './components/Restaurant.vue'
 import ContactUs from './components/ContactUs.vue'
 import AboutUs from './components/AboutUs.vue'
 import Dashboard from './components/Dashboard.vue'
@@ -24,6 +25,11 @@ const routes = [
         path: '/login'
     },
     {
+        name: 'Restaurant',
+        component: Restaurant,
+        path: '/restaurant'
+    },
+    {
         name: 'ContactUs',
         component: ContactUs,
         path: '/contact-us'
@@ -43,6 +49,7 @@ const routes = [
         component: RestManage,
         path: '/restmanage'
     },
+   
   
 
 
