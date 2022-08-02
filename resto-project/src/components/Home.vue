@@ -74,7 +74,7 @@ export default {
 
     data(){
       return{
-        name:''
+        user:[]
       }
     },
 
@@ -82,20 +82,18 @@ export default {
       Header, 
       Footer 
     },
+    loadData(){
+      let user = localStorage.getItem("user-info");
+       this.name = JSON.parse(user).name;
+     },
+    
     
      mounted() {
-        let user = localStorage.getItem("user-info");
-     
-        this.name = JSON.parse(user).name;
-       
-       console.warn(user);
-       console.warn(this.name);
-   
         if (!user) {
             this.$router.push({ name: "SignUp" });
         }
+         this.loadData();
     },
-   
    
 }
 

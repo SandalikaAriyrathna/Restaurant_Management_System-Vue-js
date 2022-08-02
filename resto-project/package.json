@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",
     "mdb-ui-kit": "^4.3.0",
     "mdbootstrap": "^4.20.0",

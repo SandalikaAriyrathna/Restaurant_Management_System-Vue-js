@@ -16,6 +16,18 @@ export default {
 </script>
 
 <style>
+
+.imagePreviewWrapper {
+  background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto 30px;
+    background-size: contain;
+    background-position: center center;
+}
+
 #app {
 
   -webkit-font-smoothing: antialiased;

@@ -3,18 +3,22 @@
 
 <section class="background-radial-gradient overflow-hidden">
 
-
+ 
 
   <div class="container px-4 py-5 px-md-5 text-center ">
-    <div class="row gx-lg-5 align-items-center mb-5">
-      
+    <div class="row align-items-center mb-5">
+         <div class="mb-5 mb-lg-0 position-relative">
+        <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+        <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
   
       <div class="container">
   <div class="Col row-col-4">
     <div class="row">
 
-    <div class="card" style="width: 18rem; margin-left: 20px;" v-for="item in restaurant" :key="item.id">
-  <img src="https://logos-world.net/wp-content/uploads/2021/10/Pizza-Hut-Logo-1999-2010.png" class="card-img-top" alt="Sunset Over the Sea"/>
+    <div class="card" style="width: 18rem; margin-left: 10px;" v-for="item in restaurant" :key="item.id">
+    
+  <img :src="item.url" class="card-img-top" alt="Sunset Over the Sea" style="margin-top: 50px;"/>
+   
   <div class="card-body">
     <h3 class="card-title">{{item.name}}</h3>
         <p class="card-text">{{item.address}}</p>
@@ -27,6 +31,7 @@
 </div>
      
     </div>
+     </div>
   </div>
 </section>
 <!-- Section: Design Block -->
@@ -53,6 +58,8 @@ export default {
       Header, 
       Footer 
     },
+
+   
     
     async mounted() {
         let user = localStorage.getItem("user-info");
