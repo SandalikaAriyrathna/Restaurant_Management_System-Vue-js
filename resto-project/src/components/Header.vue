@@ -143,7 +143,7 @@
             <a class="dropdown-item" href="#">Settings</a>
           </li>
           <li>
-            <a class="dropdown-item" v-on:click="logout" href="#">Logout</a>
+            <a class="dropdown-item" v-on:click="logout">Logout</a>
           </li>
         </ul>
       </div>
@@ -163,7 +163,7 @@ export default {
     logout(){
       console.warn("logout")
       localStorage.clear();
-      this.$router.push({name:'Login'})
+      this.$router.push({path:'/login'})
     }
   },
 

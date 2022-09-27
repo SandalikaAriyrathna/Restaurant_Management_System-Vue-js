@@ -99,6 +99,13 @@ export default {
     components: { 
       Sidenav
     },
+    methods: {
+    logout(){
+      console.warn("logout")
+      localStorage.clear();
+      this.$router.push({path:'/login'})
+    }
+  },
 }
 
 </script>
